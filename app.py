@@ -19,6 +19,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, \
 Flatten, Dense, Activation, Dropout,LeakyReLU
 from PIL import Image
 from fungsi import make_model
+from tensorflow.keras import models,layers
 
 # =[Variabel Global]=============================
 
