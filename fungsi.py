@@ -1,6 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Activation, Dropout,LeakyReLU
+from tensorflow.keras import models,layers
 
 resize_and_rescale = tf.keras.Sequential([
 layers.experimental.preprocessing.Resizing(150,150),
