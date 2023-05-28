@@ -103,7 +103,7 @@ if __name__ == '__main__':
 	
 	# Load model yang telah ditraining
 	model = make_model()
-	model.load_weights("model_corn_cnn_tf.h5")
+	model.load_weights("50_model_corn_cnn_tf.h5")
 
 	# Run Flask di localhost 
 	run_with_ngrok(app)
