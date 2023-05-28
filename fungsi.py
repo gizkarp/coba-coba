@@ -14,6 +14,7 @@ data_augmentation = tf.keras.Sequential([
 ])
 
 def make_model():
+  BATCH_SIZE = 32
   n_classes = 4
   input_shape = (BATCH_SIZE,150,150,3)
   model = models.Sequential([
